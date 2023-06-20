@@ -101,7 +101,9 @@ button:hover{
 }
 /* modal area del triangulo*/
 
+.buton1{
 
+}
 
 .modal {
     display: none;
@@ -116,10 +118,14 @@ button:hover{
   }
   
   .modal-content {
-    background-color: #7c8eaa;
-    margin: 15% auto;
+    border-radius: 3%;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #000;
+   margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #000000;
     width: 300px;
     text-align: center;
   }
@@ -172,7 +178,11 @@ input:hover{
   }
   
   .modal-content1 {
-    background-color: #7c8eaa;
+    border-radius: 3%;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #000;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
@@ -209,7 +219,12 @@ input:hover{
   }
   
   .modal-content2 {
-    background-color: #7c8eaa;
+    
+    border-radius: 3%;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
@@ -246,7 +261,11 @@ input:hover{
 }
 
 .modal-content3 {
-  background-color: #7c8eaa;
+  border-radius: 3%;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
@@ -284,7 +303,12 @@ input:hover{
 }
 
 .modal-content4 {
-  background-color: #7c8eaa;
+  
+  border-radius: 3%;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
@@ -322,7 +346,12 @@ input:hover{
 }
 
 .modal-content5 {
-  background-color: #7c8eaa;
+  
+  border-radius: 3%;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
@@ -360,7 +389,12 @@ input:hover{
 }
 
 .modal-content6 {
-  background-color: #7c8eaa;
+  
+  border-radius: 3%;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
@@ -398,7 +432,12 @@ input:hover{
 }
 
 .modal-content7 {
-  background-color: #7c8eaa;
+  
+  border-radius: 3%;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
@@ -422,7 +461,7 @@ input:hover{
 }
 
 .cont-Tri{
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   border-radius: 46%;
   background: #000000;
   width: 170px;
@@ -440,9 +479,14 @@ top: 23%;
   top: 23%;
 }
   .cont-Tri button{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     position: relative;
     top: 23%;
+}
+.cont-Tri .buton1{
+  color: #000;
+  border-radius: 3px;
+  border:1px solid #000;
 }
     
   
@@ -457,7 +501,7 @@ top: 23%;
 }
 
 .cont-Cir h3{
-  color: aliceblue;
+  color: rgb(250, 245, 245);
   position: relative;
   top: 23%;
   }
@@ -466,9 +510,15 @@ top: 23%;
     top: 23%;
 }
 .cont-Cir button{
-  color: aliceblue;
+  color: rgb(250, 247, 247);
       position: relative;
       top: 23%;
+}
+
+.cont-Cir .buton1{
+  color: #000;
+  border-radius: 3px;
+  border:1px solid #000;
 }
   
 .cont-Rec{
@@ -481,7 +531,7 @@ top: 23%;
 }
 
 .cont-Rec h3{
-  color: aliceblue;
+  color: rgb(252, 246, 246);
   position: relative;
   top: 23%;
   }
@@ -490,9 +540,15 @@ top: 23%;
     top: 23%;
 }
 .cont-Rec button{
-  color: aliceblue;
+  color: rgb(253, 251, 251);
       position: relative;
       top: 23%;
+}
+
+.cont-Rec .buton1{
+  color: #000;
+  border-radius: 3px;
+  border:1px solid #000;
 }
 h3{
   margin-top: 22px;
@@ -508,7 +564,7 @@ h3{
 }
 
 .cont-Cua h3{
-  color: aliceblue;
+  color: rgb(253, 251, 251);
   position: relative;
   top: 23%;
   }
@@ -517,7 +573,28 @@ h3{
     top: 23%;
 }
 .cont-Cua button{
-  color: aliceblue;
+  color: rgb(245, 238, 238);
       position: relative;
       top: 23%;
+}
+
+
+.cont-Cua .buton1{
+  color: #000;
+  border-radius: 3px;
+  border:1px solid #000;
+}
+
+@media (max-width:1000px) {
+
+  .menu button{
+    display: none;
+  }
+
+  .cont1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }

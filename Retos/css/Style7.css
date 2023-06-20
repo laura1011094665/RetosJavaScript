@@ -126,6 +126,7 @@ option{
     to{top: 0; opacity: 1;}    
 }
  .feedback{
+    margin-left: 36px;
     max-width: 100%;
     width: 100%;
     background-color: gray;
